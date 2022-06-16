@@ -1,0 +1,147 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    --smoke: gainsboro; 
+    --grey: #EBF0F6; 
+    --cyan: #98CCD3; 
+    --water: #364E68; 
+    --deepsea: #132238;
+}
+nav{
+    background-color: var(--water);
+    /* position: fixed; */
+    width: 100%;
+}
+nav h1{
+    font-size: x-large;
+    color: var(--smoke);
+}
+nav h1 span{
+    color: var(--cyan);
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+}
+.banner{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/header.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20px;
+    color: white;
+    height: 100vh;
+}
+.container h1{
+    letter-spacing: 15px;
+    font-size: 6rem;
+}
+.container p{
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.pembungkus{
+    width: 100%;
+}
+.kiri{
+    width: 500px;
+}
+.kanan{
+    width: 300px;
+}
+.kiri img{
+    width: 300px;
+    height: 220px;
+    margin-left: 80px;
+}
+.kanan p{
+    font-size: 25px;
+}
+.kanan{
+    height: 220px;
+}
+.kiri-1{
+    width: 300px;
+    height: 220px;
+}
+.kanan-1{
+    width: 500px;
+}
+.kanan-1 img{
+    height: 220px;
+    margin-left: 120px;
+}
+.kiri-1 p{
+    font-size: 25px;
+}
+.pembungkus h4{
+    color: var(--cyan);
+}
+.video h3{
+    color: var(--cyan);
+    letter-spacing: 15px;
+}
+video{
+    width: 800px;
+}
+.btn img{
+    width: 200px;
+}
+.modal-body{
+    display: flex;
+}
+.modal-body img{
+    width: 100px;
+    height: 100px;
+}
+.kiri h4, .kanan-1 h4{
+    letter-spacing: 5px;
+}
+.muncul{
+    width: 275px;
+}
+.news{
+    width: 300px;
+}
+.card{
+    position: static;
+    height: 500px;
+}
+.card p{
+    letter-spacing: 0px;
+    color: white;
+}
+.card-body{
+    background-color: var(--water);
+}
+.card h4{
+    color: var(--cyan);
+}
+.card-body .btn{
+    color: var(--cyan);
+}
+.foot-kiri{
+    height: 175px;
+    background-color: var(--water);
+}
+.foot-kanan{
+    height: 175px;
+    background-color: var(--deepsea);
+}
+.foot-kiri img{
+    width: 55px;
+    height: 55px;
+}
+.foot-kiri h4 span{
+    color: var(--cyan);
+}
+.foot-kiri h4{
+    color: var(--smoke);
+}
+.foot-kanan .row ul li{
+    list-style: none;
+}
